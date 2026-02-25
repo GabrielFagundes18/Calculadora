@@ -24,11 +24,6 @@ Certifique-se de ter o **Node.js** e um gerenciador de pacotes (**npm** ou **yar
 Clone o repositório e instale as dependências necessárias:
 
 ```bash
-# Clone o repositório
-git clone [https://github.com/seu-usuario/pojeto.git](https://github.com/seu-usuario/pojeto.git)
-
-# Acesse a pasta do projeto
-cd pojeto
 
 # Instale as dependências
 npm install
