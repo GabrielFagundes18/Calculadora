@@ -2,25 +2,23 @@ import styled from "styled-components";
 
 export const InputContainer = styled.div`
   width: 100%;
-  height: 70px;
-  background-color: #f0f0f0;
+  height: 90px;
+  background-color: #2c3e50; /* Cor escura elegante */
   display: flex;
-  justify-content: end;
   align-items: center;
-  font-size: 20px;
-  font-family: "Roboto", sans-serif;
-  padding: 10px 20px;
-
+  padding: 0 20px;
+  margin-bottom: 20px; /* Separa o visor dos botões */
+  border-radius: 8px;
+  box-shadow: inset 0px 2px 10px rgba(0,0,0,0.3); /* Efeito de profundidade */
 
   input {
     width: 100%;
-    height: 60px;
-    background-color: #f0f0f0;
+    background: transparent;
     border: none;
-    float: right;
-    font-size: 20px;
-    font-family: "Roboto", sans-serif;
-    color: #333;
-    
-    }
+    color: #ffffff;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+    outline: none;
+  }
 `;

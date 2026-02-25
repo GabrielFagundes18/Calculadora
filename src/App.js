@@ -1,4 +1,4 @@
-import { Container, Content, Row, Column } from "./styles";
+import { Container, Content, Row,} from "./styles";
 import Input from "./components/input";
 import Button from "./components/button";
 import { useState } from "react";
